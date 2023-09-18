@@ -28,7 +28,7 @@ if(firstChar<1 || lastChar<firstChar+2 || lastChar+2>=checkEmail.length){
 
 
 let firstFillPassword=document.myform.Password.value;
-let secendFillPassword=document.myform.CPassword.value
+
  if(firstFillPassword==null || firstFillPassword==""){
     alert("password can't be Blank ")
     return false;
