@@ -26,12 +26,30 @@ if(firstChar<1 || lastChar<firstChar+2 || lastChar+2>=checkEmail.length){
 
 //  FOR   CPASSWORD
 
+
+let firstFillPassword=document.myform.Password.value;
+let secendFillPassword=document.myform.CPassword.value
+ if(firstFillPassword==null || firstFillPassword==""){
+    alert("password can't be Blank ")
+    return false;
+  } 
+
+ 
+
+
+
+
+
+
+
+
 let firstPassword=document.myform.Password.value;
 let secendPassword=document.myform.CPassword.value
 if(firstPassword==secendPassword){
     true;
 
-}else{
+}  
+     else{
     alert('Please Inter Same Password')
     return false;
 }
